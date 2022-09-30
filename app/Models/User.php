@@ -31,7 +31,13 @@ class User extends Authenticatable
         'ads_count',
         'remain_ads_count',
         'subscribe_plan',
-        'ordered_point'
+        'ordered_point',
+        'subscribe_plan',
+        'ordered_point',
+        'pinned',
+        'days_count',
+        'code',
+        'noti',
 
     ];
 

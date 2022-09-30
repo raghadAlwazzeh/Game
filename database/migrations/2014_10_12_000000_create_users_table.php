@@ -31,6 +31,10 @@ return new class extends Migration
             $table->string('generated_invitation_code');
             $table->integer('subscribe_plan')->default(0);
             $table->integer('ordered_point')->default(0);
+            $table->boolean('pinned')->default(0);
+            $table->integer('days_count')->default(30);
+            $table->integer('code')->nullable();
+            $table->boolean('noti')->default(0);
             $table->timestamps();
         });
     }
